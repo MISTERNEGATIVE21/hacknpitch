@@ -6,18 +6,18 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('forum', '0003_comment_tags'),
+        ("forum", "0003_comment_tags"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='teacherprofile',
-            name='profilepic',
-            field=models.ImageField(blank=True, upload_to='forum/images/'),
+            model_name="teacherprofile",
+            name="profilepic",
+            field=models.ImageField(blank=True, upload_to="forum/images/"),
         ),
         migrations.AddField(
-            model_name='userprofile',
-            name='profilepic',
-            field=models.ImageField(blank=True, upload_to='forum/images/'),
+            model_name="userprofile",
+            name="profilepic",
+            field=models.ImageField(blank=True, upload_to="forum/images/"),
         ),
     ]

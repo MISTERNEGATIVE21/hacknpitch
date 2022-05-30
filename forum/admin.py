@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Issue, Comment, UserProfile, TeacherProfile, Tags
+
+from .models import Comment, Issue, Tags, TeacherProfile, UserProfile
 
 # Register your models here.
 admin.site.register(Issue)
